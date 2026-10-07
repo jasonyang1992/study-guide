@@ -1,0 +1,35 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.correct {
+  background-color: #d4edda !important;
+}
+
+.wrong {
+  background-color: #f8d7da !important;
+}
+
+.correct-answer {
+  margin-top: 5px;
+  font-style: italic;
+  color: #155724;
+}
+
+@keyframes flashRed {
+  0% {
+    background-color: #dc3545;
+  }
+
+  50% {
+    background-color: #ff6b6b;
+  }
+
+  100% {
+    background-color: #dc3545;
+  }
+}
+
+.flash {
+  animation: flashRed 0.5s ease;
+}
