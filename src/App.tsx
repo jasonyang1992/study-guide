@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route , Navigate} from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/study-guide">
 
       <Routes>
         <Route
